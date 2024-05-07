@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Reem+Kufi+Fun:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    /* background-color: aliceblue; */
+    background: url('back2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+
+
+}
+nav{
+    font-family: "Ubuntu", sans-serif;
+ 
+}
+nav ul li{
+    padding: 0px 12px;
+    /* margin: 12px; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 85px;
+    background: black;
+    color: white;
+}
+.brand img{
+    height: 40px;
+    width: 40px;
+    padding:0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.songItemConatiner{
+    margin-top: 70px;
+}
+.container{
+    min-height: 54vh;
+    background-color: black;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    margin: 24px auto;
+    width: 65%;
+    border-radius: 12px;
+    padding: 34px;
+    background: url('back.jpg') no-repeat center center /cover;
+    
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color:black ;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItem{
+    border-radius: 30px;
+    height: 55px;
+    display: flex;
+    /* width: 80%; */
+    background: #010c25d3;
+    font-weight: bolder;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    width: 40px;
+    margin: 0px 20px;
+    border-radius: 15px;
+}
+.timeStamp {
+    margin: 0 20px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    
+}
